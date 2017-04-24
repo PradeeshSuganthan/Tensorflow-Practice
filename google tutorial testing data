@@ -1,0 +1,18 @@
+1 layer: 92%
+
+2 layers: 94.18%
+
+3 layers: 93.73%, 93.71
+
+5 layers: 72.37%?, 72.82% -> change optimzer to adam optimizer from gradient descent
+	  now: 96.63%!
+
+
+Learning rate decay, 10,000 steps: 98.26%
+
+adding dropout: 98.28%
+
+
+Convolutional: 99.08%
+
+With dropout/bigger patches: 99.18%
