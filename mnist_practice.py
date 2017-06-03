@@ -6,7 +6,7 @@ import numpy as np
 #definitions
 learning_rate = 0.1
 batch_size = 128
-n_epochs = 250
+n_epochs = 25
 
 
 #read in data
