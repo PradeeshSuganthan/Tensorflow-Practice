@@ -45,14 +45,16 @@ init = tf.global_variables_initializer()
 with tf.Session() as sess:
 	sess.run(init)
 	n_batches = int(MNIST.train.num_examples/batch_size)
+	print "Training"
 	for i in range(n_epochs):
 		for _ in range(n_batches):
 			X_batch, Y_batch, = MNIST.train.next_batch(batch_size)
 			sess.run([optimizer, loss], feed_dict = {X: X_batch, Y: Y_batch})
-
+		print "Epoch " + str(i + 1) + " complete"
 
 
 #run test
+	print "Testing"
 	n_batches = int(MNIST.test.num_examples/batch_size)
 	total_correct_preds = 0
 	for i in range(n_batches):
