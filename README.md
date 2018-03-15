@@ -1,1 +1,3 @@
-# Tensorflow-Mnist-Tutorial
+# Tensorflow-Practice
+
+Messing around with tensorflow
